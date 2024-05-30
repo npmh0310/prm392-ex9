@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+android:id="@+id/message"
+android:icon="@android:drawable/ic_menu_send"
+app:showAsAction="always"
+android:title="Message"/>
+
+<item
+android:id="@+id/picture"
+android:icon="@android:drawable/ic_menu_gallery"
+app:showAsAction="always"
+android:title="Picture"/>
+
+<item
+android:id="@+id/mode"
+android:icon="@android:drawable/ic_menu_call"
+app:showAsAction="always"
+android:title="Mode"/>
+
+<item android:id="@+id/option_favorites"
+android:title="Favorites">
+<menu>
+    <item android:id="@+id/option_favorites1"
+        android:title="Music"/>
+    <item android:id="@+id/option_favorites2"
+        android:title="Book"/>
+</menu>
+</item>
+
+<item
+android:id="@+id/about"
+android:icon="@android:drawable/ic_dialog_info"
+app:showAsAction="never|withText"
+android:title="About"/>
+
+<item
+android:id="@+id/exit"
+app:showAsAction="never"
+android:title="Exit"/>
+
+    </menu>
